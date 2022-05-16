@@ -16,7 +16,7 @@
 	function backToTop() {
 		if (window.pageYOffset > 0) {
 			window.scrollBy(0, -80);
-			$("html, body").animate({ scrollTop: 0 }, 200);
+			$("html, body").animate({ scrollTop: 0 }, 0);
 		}
 	}
 
